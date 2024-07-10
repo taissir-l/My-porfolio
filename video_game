@@ -1,0 +1,120 @@
+### Project Proposal:a fun video game 
+
+#### Project Name and Tagline
+**Project Name:** frogy on quest
+**Tagline:** video game.
+
+#### Team Members
+**Team:**
+- **Taissir Lassoued 
+# Frogy on Quest
+
+## Technologies
+
+### Libraries, Languages, Platforms, Frameworks, and Resources
+
+- **Languages**: Python
+- **Libraries**: Pygame
+- **Platforms**: Windows, MacOS, Linux
+- **Frameworks**: None
+- **Hardware**: Standard personal computer
+- **Books/Resources**: "Making Games with Python and Pygame" by Al Sweigart, Pygame documentation
+
+### Technology Choices and Trade-offs
+
+#### Python vs. JavaScript
+
+- **Python**: Chosen for its simplicity and ease of use, especially for beginners in game development. Python has a rich set of libraries, including Pygame, which is specifically designed for game development.
+- **JavaScript**: An alternative could have been using JavaScript with a game development framework like Phaser.js. While JavaScript is powerful and widely used for web-based games, it requires a deeper understanding of web technologies and can be more complex to set up for desktop-based games.
+
+**Trade-offs**: Python was chosen for its simplicity and ease of learning. While JavaScript offers great performance for web-based games, Python with Pygame provides a smoother learning curve and better support for desktop-based games.
+
+#### Pygame vs. Unity
+
+- **Pygame**: Chosen for its integration with Python and suitability for 2D game development. It is lightweight and easy to use for simple games.
+- **Unity**: A powerful game development platform that supports 2D and 3D games. Unity offers extensive features and a professional environment for game development but has a steeper learning curve and requires knowledge of C#.
+
+**Trade-offs**: Pygame was chosen for its simplicity and integration with Python. While Unity offers more advanced features, Pygame is more accessible for a solo developer and sufficient for creating a 2D platformer like "Frogy on Quest."
+
+## Challenge
+
+### Problem to Solve
+
+"Frogy on Quest" aims to provide a fun and engaging platformer game experience, filling the gap for casual gamers who enjoy classic 2D platformers. It offers a nostalgic feel with modern gameplay mechanics.
+
+### Limitations
+
+The project will not solve:
+- Advanced 3D game development needs
+- Online multiplayer functionality
+- Extensive storyline or RPG elements
+
+### Target Audience
+
+The game is intended for casual gamers who enjoy platformer games, especially those who appreciate retro-style 2D graphics and simple yet challenging gameplay. It is suitable for all age groups and does not require prior gaming experience.
+
+### Relevance
+
+The project is not dependent on a specific locale. It is designed to be universally accessible and enjoyable by a global audience.
+
+## Risks
+
+### Technical Risks
+
+- **Performance Issues**: Ensuring the game runs smoothly on various hardware configurations.
+  - **Safeguards**: Regular testing on different devices, optimizing code for performance, and using lightweight assets.
+- **Compatibility**: Ensuring the game works across different operating systems (Windows, MacOS, Linux).
+  - **Safeguards**: Using cross-platform libraries and performing extensive testing on multiple platforms.
+
+### Non-Technical Risks
+
+- **User Engagement**: Ensuring the game is engaging and retains player interest.
+  - **Strategies**: Iterative testing and feedback collection from users, adding new levels and challenges based on feedback.
+- **Time Management**: Managing development time efficiently as a solo developer.
+  - **Strategies**: Creating a detailed project plan with milestones and deadlines, prioritizing tasks effectively.
+
+## Infrastructure
+
+### Branching and Merging Strategy
+
+Using the **GitHub flow** strategy:
+- **Main Branch**: Contains the production-ready code.
+- **Feature Branches**: Created for developing new features or bug fixes.
+- **Pull Requests**: Used for merging feature branches into the main branch after code review.
+
+### Deployment Strategy
+
+- **Local Deployment**: Testing the game on a local machine.
+- **Release Builds**: Creating standalone executables for Windows, MacOS, and Linux using tools like PyInstaller.
+- **Distribution**: Uploading the builds to platforms like GitHub Releases or itch.io for easy access and download.
+
+### Data Population
+
+- **Level Design**: Using JSON files to define level layouts and object placements.
+- **Assets**: Storing game assets (sprites, sounds) in organized directories for easy access and management.
+
+### Testing Tools and Automation
+
+- **Manual Testing**: Regular gameplay testing to identify and fix bugs.
+- **Automated Testing**: Writing unit tests for critical game logic using Python’s `unittest` framework.
+- **Continuous Integration**: Using GitHub Actions to automate testing and build processes.
+
+## Existing Solutions
+
+### Similar Products
+
+- **Super Mario Bros.**: Classic 2D platformer with a well-known gameplay style.
+  - **Similarities**: Platforming mechanics, side-scrolling levels, and a focus on jumping and obstacle navigation.
+  - **Differences**: "Frogy on Quest" features unique levels, a different character, and a double jump mechanic.
+
+- **Celeste**: Modern platformer with precise controls and challenging levels.
+  - **Similarities**: Challenging gameplay, pixel-perfect collision detection.
+  - **Differences**: "Frogy on Quest" is simpler in scope, focusing on a classic platformer feel rather than the intense difficulty of "Celeste."
+
+### Reimplementation
+
+"Frogy on Quest" reimplements the classic platformer formula with a unique character and specific game mechanics like double jumping. While inspired by classics like "Super Mario Bros.," it introduces its own challenges and gameplay elements to create a fresh experience for players.
+
+---
+
+By leveraging Python and Pygame, "Frogy on Quest" offers a straightforward yet captivating platformer game that pays homage to the classics while introducing new and engaging mechanics..
